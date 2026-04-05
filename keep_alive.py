@@ -1,15 +1,28 @@
-from flask import Flask
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from threading import Thread
+import os
 
-app = Flask('')
+PORT = int(os.environ.get('PORT', 8080))
 
-@app.route('/')
-def home():
-    return "Bot đang hoạt động ổn định!"
+class Handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b'Bot is running!')
+    
+    def do_HEAD(self):
+        self.send_response(200)
+        self.end_headers()
+
+    def log_message(self, format, *args):
+        pass
 
 def run():
-    app.run(host='0.0.0.0', port=8080)
+    server = HTTPServer(('0.0.0.0', PORT), Handler)
+    server.serve_forever()
 
 def keep_alive():
     t = Thread(target=run)
+    t.daemon = True
     t.start()
