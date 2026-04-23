@@ -15,15 +15,15 @@
 
 ---
 
-## ✨ Features (English)
+##  Features (English)
 
 | Feature | Description |
 |---------|-------------|
-| 🛡️ **Softban** | Ban + unban users entering trap channel, deletes 7 days of messages |
-| 🧹 **Spam Cleanup** | Deletes spam messages from last 3 seconds across all channels |
-| 📩 **Notification** | Sends DM + invite link to kicked users |
-| ⭐ **Whitelist** | Skips specified admin/mod roles |
-| 💾 **Auto Cleanup** | Limits to 1000 users, cleans every 60s |
+|  **Softban** | Ban + unban users entering trap channel, deletes 7 days of messages |
+|  **Spam Cleanup** | Deletes spam messages from last 3 seconds across all channels |
+|  **Notification** | Sends DM + invite link to kicked users |
+|  **Whitelist** | Skips specified admin/mod roles |
+|  **Auto Cleanup** | Limits to 1000 users, cleans every 60s |
 
 ### Setup
 
@@ -61,15 +61,15 @@ venv\Scripts\python main.py
 
 ---
 
-## ✨ Tính năng (Tiếng Việt)
+##  Tính năng (Tiếng Việt)
 
 | Tính năng | Mô tả |
 |-----------|-------|
-| 🛡️ **Softban** | Ban + unban user vào kênh bẫy, xóa 7 ngày tin nhắn |
-| 🧹 **Dọn spam** | Xóa tin nhắn spam trong 3 giây gần nhất trên mọi kênh |
-| 📩 **Thông báo** | Gửi DM + link mời cho user bị kick |
-| ⭐ **Whitelist** | Bỏ qua các role admin/mod được chỉ định |
-| 💾 **Tự dọn cache** | Giới hạn 1000 users, cleanup mỗi 60s |
+|  **Softban** | Ban + unban user vào kênh bẫy, xóa 7 ngày tin nhắn |
+|  **Dọn spam** | Xóa tin nhắn spam trong 3 giây gần nhất trên mọi kênh |
+|  **Thông báo** | Gửi DM + link mời cho user bị kick |
+|  **Whitelist** | Bỏ qua các role admin/mod được chỉ định |
+|  **Tự dọn cache** | Giới hạn 1000 users, cleanup mỗi 60s |
 
 ### Cài đặt
 
