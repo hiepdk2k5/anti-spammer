@@ -107,6 +107,6 @@ venv\Scripts\python main.py
 
 ---
 
-## 📜 License
+## License
 
 MIT License - Free to use.
